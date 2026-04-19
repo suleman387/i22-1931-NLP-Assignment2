@@ -8,7 +8,7 @@ As per the strict assignment requirements, no pre-trained models, Gensim, or Hug
 
 ## Repository Contents
 
-- `i22-1931_Assignment2_DS-X.ipynb`: The main, fully executed Jupyter Notebook containing all the code for the three phases of the NLP pipeline.
+- `i22-1931_Assignment2_DS-C.ipynb`: The main, fully executed Jupyter Notebook containing all the code for the three phases of the NLP pipeline.
 - `i22-1931_Assignment2_Report.pdf`: A detailed 3-page evaluation report discussing the implementation, results, ablation studies, and architectural decisions.
 - `cleaned.txt` & `raw.txt`: The BBC Urdu text dataset utilized for training the pipeline.
 - `Metadata.json`: The categorical metadata mapping used for the topic classifier.
@@ -26,7 +26,7 @@ As per the strict assignment requirements, no pre-trained models, Gensim, or Hug
 2. **Launch the Notebook**  
    Open terminal in the project root directory and start the Jupyter environment:
    ```bash
-   jupyter lab i22-1931_Assignment2_DS-X.ipynb
+   jupyter lab i22-1931_Assignment2_DS-C.ipynb
    ```
    
 3. **Execution**  
