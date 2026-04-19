@@ -1,5 +1,5 @@
 # Natural Language Processing - Assignment 2
-**Student ID:** i23-XXXX  
+**Student ID:** i22-1931  
 **Course:** CS-4063
 
 This repository contains my complete submission for Assignment 2 of the Natural Language Processing course. The objective of this assignment was to build a comprehensive neural NLP pipeline entirely from scratch in PyTorch, focusing on word embeddings, sequence labeling, and transformer-based topic classification using a BBC Urdu corpus.
@@ -8,8 +8,8 @@ As per the strict assignment requirements, no pre-trained models, Gensim, or Hug
 
 ## Repository Contents
 
-- `i23-XXXX_Assignment2_DS-X.ipynb`: The main, fully executed Jupyter Notebook containing all the code for the three phases of the NLP pipeline.
-- `i23-XXXX_Assignment2_Report.pdf`: A detailed 3-page evaluation report discussing the implementation, results, ablation studies, and architectural decisions.
+- `i22-1931_Assignment2_DS-X.ipynb`: The main, fully executed Jupyter Notebook containing all the code for the three phases of the NLP pipeline.
+- `i22-1931_Assignment2_Report.pdf`: A detailed 3-page evaluation report discussing the implementation, results, ablation studies, and architectural decisions.
 - `cleaned.txt` & `raw.txt`: The BBC Urdu text dataset utilized for training the pipeline.
 - `Metadata.json`: The categorical metadata mapping used for the topic classifier.
 - `/embeddings`: A subdirectory containing the generated TF-IDF matrices, PPMI matrices, Skip-gram W2V arrays (`.npy`), and exported t-SNE evaluation charts (`.png`).
@@ -26,7 +26,7 @@ As per the strict assignment requirements, no pre-trained models, Gensim, or Hug
 2. **Launch the Notebook**  
    Open terminal in the project root directory and start the Jupyter environment:
    ```bash
-   jupyter lab i23-XXXX_Assignment2_DS-X.ipynb
+   jupyter lab i22-1931_Assignment2_DS-X.ipynb
    ```
    
 3. **Execution**  
@@ -38,4 +38,4 @@ As per the strict assignment requirements, no pre-trained models, Gensim, or Hug
 - **Part 2 (Sequence Labeling):** Initially implements baseline rule-based parsers and gazetteers for Urdu tags, eventually transitioning to a 2-layer PyTorch BiLSTM network coupled with a Conditional Random Field (CRF) emission layer to accurately identify complex POS and NER tag sequences.
 - **Part 3 (Transformer Classifier):** A fully functional Transformer Encoder classification head crafted explicitly using algebraic tensor matrix multiplications (Scaled Dot-Product Attention, custom Multi-Head Attention, Sinusoidal Positional Encoding, and Pre-LN blocks) to classify BBC articles accurately into 5 unique semantic themes.
 
-Please refer to `i23-XXXX_Assignment2_Report.pdf` for extensive training statistics, detailed ablation comparisons, and test set accuracy assessments.
+Please refer to `i22-1931_Assignment2_Report.pdf` for extensive training statistics, detailed ablation comparisons, and test set accuracy assessments.
